@@ -1,0 +1,128 @@
+:root {
+    --cor-principal: #e6ac27;
+    --font-fredoka: 'Fredoka', sans-serif;
+    --font-rubik: 'Rubik', sans-serif;
+
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-content: space-around;
+    gap: 2rem;
+}
+
+
+.form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1.5rem;
+
+}
+
+.tittle {
+    color: var(--cor-principal);
+    font-weight:bold;
+    font-family: var(--font-fredoka);
+    font-size: 2.4rem;
+    padding: 1rem;
+}
+
+#username,
+#password {
+    border-radius: 50px;
+    border: 2px solid;
+    border-color: var(--cor-principal);
+    padding: 0.4rem 1.4rem;
+    margin: 0.3rem;
+    font-size: .7rem;
+}
+
+.btn {
+    padding: 0.6rem 1rem;
+    border-radius: 20px;
+    border: none;
+    background-color: var(--cor-principal);
+    display: block;
+    margin: auto;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.msgLogin {
+    padding-top: 0.9rem;
+    color: rgb(26, 22, 22);
+    font-family: var(--font-rubik);
+}
+
+.fa-user,
+.fa-lock {
+    display: block;
+    position: relative;
+    bottom: 1.5rem;
+    left: .7rem;
+    font-size: .9rem;
+
+}
+
+ul {
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    padding-top: .9rem;
+
+}
+
+.fa-brands {
+    border-radius: 50px;
+    border: 2px solid;
+    padding: 0.6rem;
+    border-color: var(--cor-principal);
+}
+
+a {
+    color: inherit;
+}
+
+.conteudoLateral{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    background-color: var(--cor-principal);
+}
+
+.tittleMsg{
+    font-family: var(--font-fredoka);
+    color: white;
+    font-size: 2rem;
+    font-weight: bold;
+    padding: 1rem;
+}
+.tittleParagrafo {
+    font-size: 0.9rem;
+    color: white;
+    font-weight: bold;
+
+}
+
+.btnSignUp{
+    background-color: rgb(159, 161, 9);
+    padding: 1rem 3rem;
+    border-radius: 25px;
+    color: white;
+    font-weight: bold;
+    border: none;
+}
