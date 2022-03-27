@@ -19,7 +19,7 @@
     align-content: center;
     align-content: space-around;
     gap: 2rem;
-    
+
 }
 
 
@@ -64,7 +64,8 @@
     font-weight: bold;
     text-transform: uppercase;
 }
-.btn:hover{
+
+.btn:hover {
     transition: 1s;
     background-color: #FFFCC7;
     transform: scale(1.1);
@@ -103,7 +104,8 @@ ul {
     font-size: 1.6rem;
     border-color: var(--cor-principal);
 }
-.fa-brands:hover{
+
+.fa-brands:hover {
     border-color: #FFC727;
 }
 
@@ -116,7 +118,7 @@ a {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: .9rem;
+    gap: .6rem;
     background-color: var(--cor-principal);
 }
 
@@ -132,14 +134,15 @@ a {
     font-size: 1.1rem;
     color: white;
     font-weight: bold;
-    margin: 1.4rem;
+    margin: 1.2rem;
     max-width: 85%;
+    text-align: justify;
 
 }
 
 .btnSignUp {
     background-color: #FFC727;
-    padding: 1rem 3rem;
+    padding: .7rem 2.6rem;
     border-radius: 25px;
     color: white;
     font-weight: bold;
@@ -154,4 +157,40 @@ a {
     transform: scale(1.1);
     color: var(--cor-principal);
 
+}
+.msgFinal{
+    font-size: .8rem;
+    margin-top: 1.5rem;
+    font-weight: bold;
+    font-family: var(--font-fredoka);
+}
+
+/* responsivel Tablet  */
+
+
+@media (max-width:768px) {
+    .container {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+}
+
+/* responsivel smartphones */
+
+@media screen and (max-width:425px) {
+    #username,
+    #password{
+        width: 18rem;
+        height: 2.7rem;
+        margin: 0;
+    }
+    img{
+        width: 60%;
+    }
+    .msgLogin{
+        margin-left: 2rem;
+    }
+    .tittleMsg{
+        font-size: 1.8rem;
+    }
 }
