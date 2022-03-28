@@ -88,6 +88,13 @@
     font-size: 1rem;
 
 }
+.fa-eye{
+    display: block;
+    position: relative;
+    top:-5.3rem;
+    left: 19rem;
+    font-size: 1rem;
+}
 
 ul {
     display: flex;
@@ -173,6 +180,10 @@ a {
         display: flex;
         flex-direction: column-reverse;
     }
+    .fa-eye{
+        top:-5.3rem;
+        left: 19rem;
+    }
 }
 
 /* responsivel smartphones */
@@ -183,6 +194,10 @@ a {
         width: 18rem;
         height: 2.7rem;
         margin: 0;
+    }
+    .fa-eye{
+        top:-5.2rem;
+        left: 16rem;
     }
     img{
         width: 60%;
