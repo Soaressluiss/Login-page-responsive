@@ -1,7 +1,7 @@
-let senha = document.querySelector(".fa-eye");
+let ver = document.querySelector(".fa-eye");
 let enviar = document.querySelector(".btn");
 
-senha.addEventListener("click", () => {
+ver.addEventListener("click", () => {
   let password = document.querySelector("#password");
 
   if (password.getAttribute("type") == "password") {
@@ -14,3 +14,4 @@ senha.addEventListener("click", () => {
 enviar.addEventListener("click", () => {
   location.reload();
 });
+
