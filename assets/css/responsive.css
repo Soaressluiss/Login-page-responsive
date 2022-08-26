@@ -1,0 +1,67 @@
+/* responsivel Tablet  */
+
+@media screen and (max-width:768px) {
+    .container {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .tittle {
+        text-align: center;
+    }
+
+    .fa-eye {
+        top: -5rem;
+        left: 19rem;
+    }
+
+    .inputs__formulario {
+        display: flex;
+        justify-items: center;
+        flex-direction: column;
+    }
+}
+
+/* responsivel smartphones */
+
+@media screen and (max-width:425px) {
+    .container {
+        gap: 1rem;
+    }
+
+    #username,
+    #password {
+        width: 15rem;
+        height: 2.7rem;
+        margin: 0;
+    }
+
+    .fa-eye {
+        top: -5rem;
+        left: 13rem;
+    }
+
+    .inputs__formulario {
+        gap: .5rem;
+    }
+
+    .btn {
+        margin-top: 1rem;
+    }
+
+    img {
+        width: 60%;
+    }
+
+    .msgLogin {
+        margin-left: 2rem;
+    }
+
+    .tittleMsg {
+        font-size: 1.8rem;
+    }
+
+    .fa-brands {
+        font-size: 1.4rem;
+    }
+}

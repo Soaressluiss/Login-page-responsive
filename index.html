@@ -5,11 +5,15 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>pagina de login</title>
+    <meta name="description"
+        content="Uma bela página de login sempre vai encher os olhos de um usuário curioso por um servço ou produto">
     <link rel="stylesheet" href="/fontawesome/css/all.css">
     <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@500&family=Rubik:wght@500&display=swap"
         rel="stylesheet">
-    <link rel="stylesheet" href="/css/style.css">
+    <link rel="shortcut icon" href="/assets/image/login icon.png" type="image/x-icon">
+    <title>pagina de login</title>
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <link rel="stylesheet" href="/assets/css/responsive.css">
 
 </head>
 
@@ -17,15 +21,17 @@
     <div class="container">
         <div class="form">
             <h2 class="tittle">Sign in</h2>
-            <form action="#" class="fomulario">
-                <input type="text" id="username" placeholder="Username" required>
-                <i class="fa-solid fa-user"></i>
-                <input type="password" id="password" placeholder="Password" required>
-                <i class="fa-solid fa-lock"></i>
+            <form action="#" class="formulario">
+                <div class="inputs__formulario">
+
+                    <label for="username"></label>
+                    <input type="text" id="username" placeholder="Username" required>
+                    <label for="password"></label>
+                    <input type="password" id="password" placeholder="Password" required>
+                </div>
                 <button class="btn">Login</button>
                 <i class="fa-solid fa-eye"></i>
                 <p class="msgLogin">Or Sign in with social platform</p>
-
                 <ul>
                     <li><a href="#"><i class="fa-brands fa-facebook-square"></i></a></li>
                     <li><a href="#"><i class="fa-brands fa-twitter-square"></i></a></li>
@@ -33,8 +39,9 @@
                     <li><a href="#"><i class="fa-brands fa-linkedin"></i></a></li>
                 </ul>
             </form>
-            <p class="msgFinal">Feito por Luís Soares &copy; 2022</p>
-            <!-- Mensagem e sign up -->
+            <p class="msgFinal">Feito com ❤ por <a href="https://www.linkedin.com/in/luis-soares-281589234/"
+                    target="_blank">Luís Soares</a> &copy; 2022</p>
+            <!-- Mensage e sign up -->
         </div>
         <div class="conteudoLateral">
             <h2 class="tittleMsg">New to Brand?</h2>
@@ -42,11 +49,12 @@
                 ullam rerum doloribus, cum ut quod. Sint corrupti, eveniet labore nisi exercitationem rerum, ab
                 dolorem nemo asperior</p>
             <button class="btnSignUp">Sign Up</button>
-            <img src="/image/Work in progress-cuate.png" alt="girl with pc" width="45%">
+            <img src="/assets/image/Work in progress-cuate.png" alt="girl with pc" width="45%">
+
         </div>
 
     </div>
-    <script src="/scripts/main.js"></script>
+    <script src="/assets/scripts/main.js"></script>
 </body>
 
 </html>
