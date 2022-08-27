@@ -11,7 +11,7 @@
     }
 
     .fa-eye {
-        top: -5rem;
+        top: -5.4rem;
         left: 19rem;
     }
 
@@ -43,13 +43,14 @@
 
     .inputs__formulario {
         gap: .5rem;
+        justify-content: center;
     }
 
     .btn {
         margin-top: 1rem;
     }
 
-    img {
+    .img_girl {
         width: 60%;
     }
 
