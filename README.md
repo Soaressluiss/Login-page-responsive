@@ -50,10 +50,7 @@ Foi desenvolvido com o intuito de aprimorar os conhecimentos em manipulação de
 
 ## 🌐 Acesse o projeto online:
 
->[Login Page Responsive 📱💻🖥](http://login-page-responsive.vercel.app/)
-
-<a href="http://login-page-responsive.vercel.app/"> porrraaaaaaa </a>
-
+>[Login Page Responsive 📱💻🖥](https://login-page-responsive.vercel.app/)
 
 ## 💻 Inicie localmente:
 
@@ -85,4 +82,3 @@ ou clique em "GO Live" no canto inferior direito do Vscode para iniciar o Server
 #### Gostou do projeto? Me mande uma mensagem!😄
 
 <a href="https://www.linkedin.com/in/luis-soares-281589234/" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a>
- 
