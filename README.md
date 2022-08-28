@@ -50,9 +50,9 @@ Foi desenvolvido com o intuito de aprimorar os conhecimentos em manipulação de
 
 ## 🌐 Acesse o projeto online:
 
->[Login Page Responsive 📱💻🖥](login-page-responsive.vercel.app/)
+>[Login Page Responsive 📱💻🖥](http://login-page-responsive.vercel.app/)
 
-<a href="login-page-responsive.vercel.app/"> porrraaaaaaa </a>
+<a href="http://login-page-responsive.vercel.app/"> porrraaaaaaa </a>
 
 
 ## 💻 Inicie localmente:
