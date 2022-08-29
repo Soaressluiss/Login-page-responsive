@@ -21,20 +21,20 @@
 - funcionalidades
 - Tecnologias utilizadas
 - Acesse ao projeto
-- Inicie local o Projeto
+- Inicie localmente o Projeto
 - Gif demostrativo
 
 
 ## 📃 Descrição :
 
-O projeto consiste na representação de uma página de Login responsiva que pode servir como base de entrada para diversos sites com diversas temáticas.
+O projeto consiste na representação de uma página de login responsiva que pode servir como base de entrada para diversos sites com várias temáticas.
 
 Foi desenvolvido com o intuito de aprimorar os conhecimentos em manipulação de DOM, validação de inputs e responsividade.
 
 ## ⚙ Funcionalidades :
 
-- Validação de campos com Javascript (caso um campo esteja faltando ou seja muito pequeno, no caso menos ou igual a 3 caracteris um alerta é acionado avisando o usuário);
-- Adaptabilidade a diversos tamanhos de tela (destop, tablet e smartphones);
+- Validação de campos com Javascript (caso um campo esteja faltando ou seja muito pequeno, no caso menor ou igual a 3 caracteris um alerta é acionado, avisando o usuário);
+- Adaptabilidade a diversos tamanhos de tela (desktop, tablet e smartphones);
 - No Input "Password" é possivel ocultar ou não ocultar o que está sendo digitado;
 
 
