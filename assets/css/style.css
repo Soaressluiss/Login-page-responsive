@@ -59,13 +59,15 @@
     font-weight: bold;
     margin: 0 auto;
     text-transform: uppercase;
+    cursor: pointer;
 }
 
 .btn:hover {
-    transition: 1s;
+    transition: 1s all ease;
     background-color: #FFFCC7;
     transform: scale(1.1);
     color: var(--cor-principal);
+    border: 2px #e6ac27 solid;
 }
 
 .msgLogin {
@@ -81,6 +83,7 @@
     top:-5.9rem;
     left: 19rem;
     width: 1.5rem;
+    cursor: pointer;
 }
 
 ul {
@@ -145,6 +148,7 @@ a {
     border: none;
     text-transform: uppercase;
     transition: 1.5s;
+    cursor: pointer;
 
 }
 
